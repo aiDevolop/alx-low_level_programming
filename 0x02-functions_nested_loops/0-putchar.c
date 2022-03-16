@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Prints Holberton
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
