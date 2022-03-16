@@ -6,7 +6,7 @@
  * Return: nothing.
  */
 
-void 100-times_table(int n)
+void times_table(int n)
 {
 	int row, col;
 	int mult = 0;
