@@ -1,15 +1,31 @@
 #include <stdio.h>
-
-/* printing the alphabet */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Sucess/correct)
+ */
 int main(void)
-{
-char c;
 
-for (c = 'a'; c <= 'z'; c++)
-putchar(c);
-for (c = 'A'; c <= 'Z'; c++)
-putchar(c);
-putchar('\n');
+{
+char lower_case;
+char upper_case;
+
+for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
+{
+putchar(lower_case);
+}
+
+
+for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
+{
+putchar(upper_case);
+}
+
+
+
+
+putchar ('\n');
 
 return (0);
+
 }
