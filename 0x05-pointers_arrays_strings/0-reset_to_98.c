@@ -7,7 +7,7 @@
  *Return: voif that meanss is correct
  */
 
-vooid reset_to _98(int *n)
+void reset_to _98(int *n)
 {
 *n = 98;
 }
