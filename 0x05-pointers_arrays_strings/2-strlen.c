@@ -1,20 +1,19 @@
 #include "main.h"
 
 /**
- *_strlen _length of a string
- *@s: A pointer to sn int that could be changed or updated
- *
- *Return: void that means our answer is correct
+ * _strlen - returns length of string
+ * @s: string
+ * Return: length of string
  */
 
 int _strlen(char *s)
 {
-int i;
+	int len = 0;
 
-i = 0;
-while (s[i] != '\0')
-{
-i++;
-}
-return (i);
+	while (s[len] != '\0')
+	{
+		len++;
+	}
+
+	return (len);
 }
