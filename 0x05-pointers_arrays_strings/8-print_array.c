@@ -7,7 +7,7 @@
  *Return: void which means our answer is correct
  */
 
-vod print_array(int @a, int n)
+void print_array(int @a, int n)
 
 {
 int i;
